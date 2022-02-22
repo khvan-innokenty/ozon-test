@@ -1,3 +1,5 @@
+<?
+
 $delivery = $this->post('principal-integration-api/v1/delivery/calculate/information', [
     'json' => [
         'fromPlaceId' => $this->f3->get('ozon.from_id'),
