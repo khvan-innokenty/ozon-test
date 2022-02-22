@@ -2,7 +2,7 @@
 
 $delivery = $this->post('principal-integration-api/v1/delivery/calculate/information', [
     'json' => [
-        'fromPlaceId' => $this->f3->get('ozon.from_id'),
+        'fromPlaceId' => 19392479337000,
         'destinationAddress' => 'Санкт-Петербург',
         'packages' => [[
             'count' => 1,
