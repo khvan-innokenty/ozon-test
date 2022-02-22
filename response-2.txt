@@ -1,0 +1,84 @@
+
+array(1) {
+  ["deliveryInfos"]=>
+  array(3) {
+    [0]=>
+    array(4) {
+      ["deliveryType"]=>
+      string(7) "Courier"
+      ["price"]=>
+      float(576)
+      ["pricePositions"]=>
+      array(2) {
+        [0]=>
+        array(2) {
+          ["type"]=>
+          string(8) "Delivery"
+          ["amount"]=>
+          int(576)
+        }
+        [1]=>
+        array(2) {
+          ["type"]=>
+          string(9) "Insurance"
+          ["amount"]=>
+          float(0)
+        }
+      }
+      ["deliveryTermInDays"]=>
+      int(1)
+    }
+    [1]=>
+    array(4) {
+      ["deliveryType"]=>
+      string(8) "Postamat"
+      ["price"]=>
+      float(370.8)
+      ["pricePositions"]=>
+      array(2) {
+        [0]=>
+        array(2) {
+          ["type"]=>
+          string(8) "Delivery"
+          ["amount"]=>
+          float(370.8)
+        }
+        [1]=>
+        array(2) {
+          ["type"]=>
+          string(9) "Insurance"
+          ["amount"]=>
+          float(0)
+        }
+      }
+      ["deliveryTermInDays"]=>
+      int(1)
+    }
+    [2]=>
+    array(4) {
+      ["deliveryType"]=>
+      string(9) "PickPoint"
+      ["price"]=>
+      float(370.8)
+      ["pricePositions"]=>
+      array(2) {
+        [0]=>
+        array(2) {
+          ["type"]=>
+          string(8) "Delivery"
+          ["amount"]=>
+          float(370.8)
+        }
+        [1]=>
+        array(2) {
+          ["type"]=>
+          string(9) "Insurance"
+          ["amount"]=>
+          float(0)
+        }
+      }
+      ["deliveryTermInDays"]=>
+      int(1)
+    }
+  }
+}
